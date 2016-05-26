@@ -1,0 +1,15 @@
+var temp;
+var list=new Array();
+for(var i=0;i<list.length-1;i++){
+     list.push(i);
+}
+for(var i=0;i<list.length-1;i++){
+    for(var j=list.length-1;j>i;j--){
+        if(list[j-1]<list[j]){
+         temp=list[j-1];
+         list[j-1]=list[j];
+         list[j]=temp;
+        }
+    }
+}
+console.log(list.join());
