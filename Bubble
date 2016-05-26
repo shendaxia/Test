@@ -1,6 +1,6 @@
 var temp;
 var list=new Array();
-for(var i=0;i<list.length-1;i++){
+for(var i=0;i<10;i++){
      list.push(i);
 }
 for(var i=0;i<list.length-1;i++){
